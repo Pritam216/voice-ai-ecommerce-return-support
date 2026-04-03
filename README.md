@@ -6,12 +6,26 @@ Here’s a polished **README.md** draft for your assignment project. I’ve form
 
 ## 🛠️ Technologies Used
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)  
-[![Faster Whisper](https://img.shields.io/badge/FasterWhisper-Model-orange)](https://github.com/guillaumekln/faster-whisper)  
-[![Google Gemini](https://img.shields.io/badge/GoogleGemini-API-red)](https://developers.google.com/generative-ai)  
-[![Cohere API](https://img.shields.io/badge/Cohere-API-purple)](https://cohere.ai/)  
-[![Sarvam AI](https://img.shields.io/badge/SarvamAI-TTS-green)](https://sarvam.ai/)  
-[![Streamlit](https://img.shields.io/badge/Streamlit-UI-blue)](https://streamlit.io/)
+<p align="center">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white" alt="Python">
+  </a>
+  <a href="https://github.com/guillaumekln/faster-whisper">
+    <img src="https://img.shields.io/badge/FasterWhisper-Model-orange" alt="Faster Whisper">
+  </a>
+  <a href="https://developers.google.com/generative-ai">
+    <img src="https://img.shields.io/badge/GoogleGemini-API-red" alt="Google Gemini">
+  </a>
+  <a href="https://cohere.ai/">
+    <img src="https://img.shields.io/badge/Cohere-API-purple" alt="Cohere API">
+  </a>
+  <a href="https://sarvam.ai/">
+    <img src="https://img.shields.io/badge/SarvamAI-TTS-green" alt="Sarvam AI">
+  </a>
+  <a href="https://streamlit.io/">
+    <img src="https://img.shields.io/badge/Streamlit-UI-blue" alt="Streamlit">
+  </a>
+</p>
 
 ---
 
@@ -128,10 +142,3 @@ Future improvements:
 * `policies.json` → contains return/refund policies
 
 ---
-
-```
-
-I can also **add clickable buttons for each tech** in the README if you want it **visually interactive in GitHub**, like actual links and badges you can click.  
-
-Do you want me to do that next?
-```
