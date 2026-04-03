@@ -1,5 +1,3 @@
-Here’s a polished **README.md** draft for your assignment project. I’ve formatted it with nice headers, badges/buttons, sections, and included your technologies, challenges, and solutions.
-
 # 🎧 Voice AI Support Assistant (E-commerce Returns)
 
 ---
