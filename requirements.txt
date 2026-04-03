@@ -1,0 +1,9 @@
+faster-whisper
+google-generativeai
+cohere
+noisereduce
+librosa
+soundfile
+numpy
+streamlit
+python-dotenv

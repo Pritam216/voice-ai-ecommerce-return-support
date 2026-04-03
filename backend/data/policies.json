@@ -1,0 +1,82 @@
+{
+  "returns": {
+    "allowed": true,
+    "window_days": 7,
+    "conditions": [
+      "Item must be unused",
+      "Original packaging required",
+      "Return request must be initiated within window"
+    ]
+  },
+  "refunds": {
+    "method": "original payment method",
+    "processing_time_days": 5,
+    "instant_refund_available": false
+  },
+  "cancellation": {
+    "allowed_before_shipping": true,
+    "allowed_after_shipping": false
+  },
+  "replacement": {
+    "allowed": true,
+    "window_days": 7
+  },
+  "shipping": {
+    "standard_delivery_days": "3-7 business days",
+    "express_delivery_available": true
+  },
+  "return_shipping": {
+    "free_return_shipping": true,
+    "pickup_available": true
+  },
+  "warranty": {
+    "default_warranty_days": 365
+  },
+  "payment_methods": [
+    "Credit Card",
+    "Debit Card",
+    "UPI",
+    "Net Banking",
+    "Cash on Delivery"
+  ],
+  "cod": {
+    "available": true,
+    "cod_fee": 0
+  },
+  "international_shipping": {
+    "available": false
+  },
+  "support_hours": "9 AM - 6 PM IST",
+  "exchange_policy": {
+    "allowed": true,
+    "window_days": 7
+  },
+  "damaged_items": {
+    "replacement_or_refund": true
+  },
+  "late_delivery": {
+    "compensation": "coupon"
+  },
+  "refund_modes": [
+    "Original payment",
+    "Store credit"
+  ],
+  "order_tracking": {
+    "available": true
+  },
+  "multiple_returns": {
+    "allowed": true
+  },
+  "gift_returns": {
+    "allowed": true
+  },
+  "partial_refund": {
+    "allowed": true
+  },
+  "out_of_stock": {
+    "auto_refund": true
+  },
+  "delivery_attempts": {
+    "max_attempts": 3
+  }
+}
