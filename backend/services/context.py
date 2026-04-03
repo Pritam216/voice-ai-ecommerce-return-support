@@ -30,15 +30,3 @@ def get_context(transcription):
     return None
 
 
-# services/context.py
-# import streamlit as st
-
-# def init_session():
-#     if "history" not in st.session_state:
-#         st.session_state.history = []
-
-# def add_message(user_text, assistant_text):
-#     st.session_state.history.append({"user": user_text, "assistant": assistant_text})
-
-# def reset_history():
-#     st.session_state.history = []

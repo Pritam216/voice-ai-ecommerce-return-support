@@ -48,31 +48,3 @@ def text_to_speech(text, output_path="audio/output.wav"):
         return output_path
     else:
         raise Exception(f"TTS Error: {response.text}")
-
-
-# import os
-# import base64
-# import requests
-
-# SARVAM_API_KEY = os.getenv("SARVAM_API_KEY")
-# BASE_URL = "https://api.sarvam.ai/text-to-speech"
-
-# def synthesize_speech(text: str, lang="en-IN", voice="shubh"):
-#     """Call Sarvam TTS REST endpoint and return raw audio bytes."""
-#     headers = {
-#         "Authorization": f"Bearer {SARVAM_API_KEY}",
-#         "Content-Type": "application/json"
-#     }
-#     payload = {
-#         "text": text,
-#         "target_language_code": lang,
-#         "speaker": voice,
-#         "model": "bulbul:v3"
-#     }
-
-#     res = requests.post(BASE_URL, json=payload, headers=headers)
-#     res.raise_for_status()
-#     data = res.json()
-#     # data["audios"] is a list of base64 audio parts
-#     audio_b64 = "".join(data.get("audios", []))
-#     return base64.b64decode(audio_b64)
